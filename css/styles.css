@@ -1,0 +1,122 @@
+/*Table of Contents
+i.      Typography
+ii.     Components
+iii.    Elements
+*/
+
+/*-- Typography --*/
+@font-face {
+    font-family: "Effra";
+    src: url(fonts/effra_std_rg_2-webfont.woff) format('woff');
+    font-weight:normal;
+}
+.h1{
+   font-size: 4em;
+}
+
+.h2{
+    font-size: 2.5em;
+}
+
+.iv-sub-header{
+    font-size: 1.5em;
+}
+
+.iv-cta p{
+    font-size: 1.5em;
+}
+
+a.iv-text{
+    color: #081E3F;
+}
+.iv-card .card-title{
+    color:#081E3F!important;
+}
+/*-- Components --*/
+body{
+    font-family: "Effra"!important;
+    overflow-x: hidden;
+}
+.iv-footer {
+    background-color: #081E3F!important;
+} 
+
+.row-full{
+    width: 100vw;
+    height: 100vh!important;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
+
+.iv-fullwidth-section,.iv-navbar{
+    width: 100vw;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
+
+.jumbotron{
+    background-position: left bottom;
+    background-image:url('images/0095EUIV2018RT-original.jpg')!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iv-inner-container{
+    background-color: rgba(97,181,210,0.7);
+}
+
+.iv-navbar{
+    background-color: #081E3F!important;
+}
+
+/*-- Elements --*/
+.iv-button-dark{
+    min-width: 200px;
+    text-transform: uppercase;
+    border:1px solid #fff;
+    color:#fff!important;
+    padding:6px 25px 7.5px 25px;
+    background-color: #081E3F!important;
+    border-radius: 0;
+}
+
+.iv-button-light{
+    min-width: 200px;
+    text-transform: uppercase;
+    border:1px solid #081E3F;
+    color:#081E3F!important;
+    padding:6px 25px 7.5px 25px;
+    background-color: transparent;
+    border-radius: 0;
+}
+.iv-button-light:hover{
+   min-width: 200px;
+    text-transform: uppercase;
+    border:1px solid #fff;
+    color:#fff!important;
+    padding:6px 25px 7.5px 25px;
+    background-color: #081E3F!important;
+    border-radius: 0;
+}
+.iv-card{
+    border:none;
+}
+.iv-card img{
+    border:none;
+    border-radius: 0!important;
+}
+
+.iv-dark-background{
+    background-color: #081E3F!important;
+}
+hr.light{
+    border:1px solid #fff;
+}
